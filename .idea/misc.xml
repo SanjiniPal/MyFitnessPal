@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/ADProjects/MyFitnessPal/app/src/main/res/layout/activity_content.xml" value="0.2828125" />
         <entry key="..\:/ADProjects/MyFitnessPal/app/src/main/res/layout/activity_login.xml" value="0.2988679352838745" />
+        <entry key="..\:/ADProjects/MyFitnessPal/app/src/main/res/layout/activity_main.xml" value="0.2828125" />
       </map>
     </option>
   </component>
