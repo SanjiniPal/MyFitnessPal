@@ -86,7 +86,7 @@
         app:layout_constraintHorizontal_bias="0.579"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.707" />
+        app:layout_constraintVertical_bias="0.67" />
 
     <EditText
         android:id="@+id/editTextTextEmailAddress"
