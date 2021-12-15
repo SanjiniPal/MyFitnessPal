@@ -80,7 +80,7 @@
         android:id="@+id/textView5"
         android:layout_width="207dp"
         android:layout_height="45dp"
-        android:text="New ? Create one Account"
+        android:text="New ? Create Account"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
