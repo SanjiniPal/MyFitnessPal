@@ -1,14 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/gradient_1"
     android:orientation="vertical"
     tools:context=".contentActivity">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gradient_1"
+        android:orientation="vertical"
+        >
+
+
     <GridLayout
+        android:id="@+id/mainGridLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:alignmentMode="alignMargins"
@@ -16,6 +24,8 @@
         android:rowCount="3"
         android:columnOrderPreserved="false"
         android:padding="14dp"
+        android:minHeight="1000dp"
+
         >
         <androidx.cardview.widget.CardView
             android:layout_width="0dp"
@@ -38,8 +48,8 @@
 
             >
             <ImageView
-                android:layout_width="100dp"
-                android:layout_height="100dp"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
                 android:layout_gravity="center_horizontal"
                 android:src="@drawable/pedometerfoot"/>
             <TextView
@@ -47,7 +57,7 @@
                 android:layout_height="wrap_content"
                 android:text="PEDOMETER"
                 android:textStyle="bold"
-                android:textSize="16dp"
+                android:textSize="25dp"
                 android:layout_gravity="center"
                 android:textAlignment="center"/>
 
@@ -75,16 +85,53 @@
 
                 >
                 <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
                     android:layout_gravity="center_horizontal"
-                    android:src="@drawable/pedometerfoot"/>
+                    android:src="@drawable/bmi"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="PEDOMETER"
+                    android:text="BMI"
                     android:textStyle="bold"
-                    android:textSize="16dp"
+                    android:textSize="25dp"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"/>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            app:cardCornerRadius="8dp"
+            android:layout_marginBottom="16dp"
+            app:cardElevation="8dp"
+
+            >
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="16dp"
+                android:orientation="vertical"
+
+                >
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/food"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="NUTRITION"
+                    android:textStyle="bold"
+                    android:textSize="25dp"
                     android:layout_gravity="center"
                     android:textAlignment="center"/>
 
@@ -92,4 +139,5 @@
         </androidx.cardview.widget.CardView>
 
     </GridLayout>
-</RelativeLayout>
+    </LinearLayout>
+</ScrollView>
