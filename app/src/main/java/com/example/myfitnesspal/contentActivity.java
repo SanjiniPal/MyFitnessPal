@@ -13,19 +13,5 @@ public class contentActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_content);
     }
-    public void naviagteToStepCounterActivity(View v)
-    {
-        Intent mIntent = new Intent(this, StepCounterActivity.class);
-        startActivity(mIntent);
-    }
-    public void naviagteToStepHistoryActivity(View v)
-    {
-        Intent mIntent = new Intent(this, StepHistoryActivity.class);
-        startActivity(mIntent);
-    }
-    public void naviagteToCustomAlgoActivity(View v)
-    {
-        Intent mIntent = new Intent(this, CustomAlgoActivity.class);
-        startActivity(mIntent);
-    }
+
 }
