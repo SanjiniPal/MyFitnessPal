@@ -54,13 +54,13 @@
         </TextView>
 
         <EditText
+            android:inputType="numberDecimal"
             android:id="@+id/edweg"
             android:layout_width="95dp"
             android:layout_height="match_parent"
             android:layout_gravity="center"
             android:background="#3F7360"
             android:hint="Kg"
-            android:inputType="number"
             android:textAlignment="center">
 
         </EditText>
@@ -97,8 +97,7 @@
             android:layout_gravity="center"
             android:background="#3F7360"
             android:hint="m"
-            android:inputType="number"
-
+            android:inputType="numberDecimal"
             android:textAlignment="center">
 
         </EditText>
