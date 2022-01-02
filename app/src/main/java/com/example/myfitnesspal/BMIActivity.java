@@ -46,6 +46,25 @@ public class BMIActivity extends AppCompatActivity {
                     edHei.requestFocus();
                     return;
                 }
+
+                float weight = Float.parseFloat(strweg);
+                float height = Float.parseFloat(strhei);
+
+                float bmiValue = BMICalculate(weight,height);
+
+                txtInter.setText(interpretBMI(bmiValue));
+                txtRes.setText("BMI= "+bmiValue);
+            }
+        });
+
+        btnReset.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                edHei.setText("");
+                edWeg.setText("");
+                txtInter.setText("");
+                txtRes.setText("");
+
             }
         });
 
