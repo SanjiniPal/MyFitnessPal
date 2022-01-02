@@ -3,6 +3,7 @@ package com.example.myfitnesspal;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -26,6 +27,27 @@ public class BMIActivity extends AppCompatActivity {
 
         btnRes = (Button) findViewById(R.id.btnres);
         btnReset = (Button) findViewById(R.id.btnreset);
+
+        btnRes.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String strweg = edWeg.getText().toString();
+                String strhei = edHei.getText().toString();
+
+                if(strweg=="")
+                {
+                    edWeg.setError("Please Enter Your Weight");
+                    edWeg.requestFocus();
+                    return;
+                }
+                if(strhei=="")
+                {
+                    edHei.setError("Please Enter Your Height");
+                    edHei.requestFocus();
+                    return;
+                }
+            }
+        });
 
     }
     public float BMICalculate(float weight, float height)
