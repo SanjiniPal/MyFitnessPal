@@ -12,7 +12,10 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:gravity="center">
+        android:gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        >
 
         <TextView
             android:layout_width="match_parent"
@@ -54,7 +57,52 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text=">"
+            android:text="          >> fresh fruits"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            >
+
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="          >> fresh vegetables"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            >
+
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="          >> whole grains"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            >
+
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="          >> legumes"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            >
+
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="          >> nuts"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            >
+
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="          >> lean proteins"
             android:textSize="20sp"
             android:textStyle="bold"
             >
