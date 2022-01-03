@@ -36,7 +36,7 @@
             android:layout_height="match_parent"
             android:layout_marginTop="20dp"
             android:layout_marginBottom="20dp"
-            android:text="What is a balanced diet?"
+            android:text="@string/what_is_a_balanced_diet"
             android:textSize="25sp"
             android:textStyle="bold">
 
@@ -46,7 +46,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginTop="20dp"
-            android:text="A balanced diet gives your body the nutrients it needs to function correctly. To get the nutrition you need, most of your daily calories should come from:"
+            android:text="@string/a_balanced_diet_gives_your_body_the_nutrients_it_needs_to_function_correctly_to_get_the_nutrition_you_need_most_of_your_daily_calories_should_come_from"
             android:textSize="20sp"
             android:textStyle="bold"
 

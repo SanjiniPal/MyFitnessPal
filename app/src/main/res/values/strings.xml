@@ -23,4 +23,6 @@
     <string name="title_activity_choose">choose</string>
     <string name="tab_text_1">Tab 1</string>
     <string name="tab_text_2">Tab 2</string>
+    <string name="a_balanced_diet_gives_your_body_the_nutrients_it_needs_to_function_correctly_to_get_the_nutrition_you_need_most_of_your_daily_calories_should_come_from">A balanced diet gives your body the nutrients it needs to function correctly. To get the nutrition you need, most of your daily calories should come from:</string>
+    <string name="what_is_a_balanced_diet">What is a balanced diet?</string>
 </resources>
